@@ -5,7 +5,6 @@
 }
 
 *{
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -19,21 +18,24 @@ body {
 header {
     background-image: url(https://picstatio.com/download/2048x1152/tl9e0z/light-bulb-glowing-wallpaper.jpg);
     background-size: cover;
-    padding: 45px;
+    padding: 40px;
     justify-content: space-between;
     border-bottom: none;
 }
 header h1 {
     color: var(--tertiary-color);
-
 }
 
 header nav ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    float: right;
+}
+header nav ul a {
+    padding: 100px;
 }
 
 
@@ -57,13 +59,41 @@ header nav ul {
 
 /*about me*/
 
+#about-me {
+padding-bottom: 10px;
+overflow: auto;
+}
+
+.bio div {
+    text-align: center;
+}
+
+.bio img {
+    width: 5%;
+    float: left;
+    
+}
+.bio p {
+    margin: 50px;
+}
+
+.text-right {
+    text-align: right;
+  }
+
 
 /*end about me*/
 
 
 
 /*my ideas*/
+#my-ideas{
+    text-align: center;
+}
 
+#my-ideas ul {
+    padding: 10px;
+}
 
 /*end my ideas*/
 
@@ -73,6 +103,20 @@ header nav ul {
 footer {
     color:var(--tertiary-color);
     background-color: var(--secondary-color);
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    padding: 10;
+}
+footer h4{
+    text-align: center;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*end contact & footer*/
