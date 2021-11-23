@@ -1,3 +1,78 @@
+:root {
+    --primary-color: #447c16 ;
+    --secondary-color: #1a3bce;
+    --tertiary-color: #ffffff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--tertiary-color);
+}
+
+/*Header and nav section*/
+header {
+    background-image: url(https://picstatio.com/download/2048x1152/tl9e0z/light-bulb-glowing-wallpaper.jpg);
+    background-size: cover;
+    padding: 45px;
+    justify-content: space-between;
+    border-bottom: none;
+}
+header h1 {
+    color: var(--tertiary-color);
+
+}
+
 header nav ul {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
+
+
+/*end header and nav*/
+
+/*hero jumbotron*/
+
+.hero {
+    background-image: url(https://picstatio.com/download/2048x1152/tl9e0z/light-bulb-glowing-wallpaper.jpg);
+    color:var(--tertiary-color);
+    padding: 60px;
+    text-align: center;
+}
+
+.hero h2{
+    padding-bottom: 10px;
+}
+
+/*end hero jumbo*/ 
+
+
+/*about me*/
+
+
+/*end about me*/
+
+
+
+/*my ideas*/
+
+
+/*end my ideas*/
+
+
+/*contact & footer*/
+
+footer {
+    color:var(--tertiary-color);
+    background-color: var(--secondary-color);
+}
+
+/*end contact & footer*/
