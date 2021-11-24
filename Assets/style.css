@@ -1,7 +1,8 @@
 :root {
-    --primary-color: #447c16 ;
-    --secondary-color: #1a3bce;
-    --tertiary-color: #ffffff;
+    --primary-color: #244c60 ;
+    --secondary-color: #384640;
+    --tertiary-color:#eef4f0; 
+    --quaternary-color: #970c10;
 }
 
 *{
@@ -16,12 +17,12 @@ body {
 
 /*Header and nav section*/
 header {
+   
     padding: 20px 35px;
     justify-content: space-between;
     border-bottom: none;
-    background-image: url(https://picstatio.com/download/2048x1152/tl9e0z/light-bulb-glowing-wallpaper.jpg);
     background-size: inherit;
-    background-position: 50%
+    background-position: 50%;
 }
 header h1 {
     border-bottom: solid;
@@ -50,7 +51,7 @@ header nav ul a {
     margin: 0 30px;
     font-weight: bold;
     font-size: 25px;
-    color: var(--primary-color);
+    color: var(--quaternary-color);
 }
 
 
@@ -59,7 +60,6 @@ header nav ul a {
 /*hero jumbotron*/
 
 .hero {
-    background-image: url(https://picstatio.com/download/2048x1152/tl9e0z/light-bulb-glowing-wallpaper.jpg);
     color:var(--tertiary-color);
     padding: 60px;
     text-align: center;
@@ -121,11 +121,11 @@ overflow: auto;
 
 footer {
     color:var(--tertiary-color);
-    background-color: var(--secondary-color);
+    background-color: var(--quaternary-color);
     width: 100%;
     position: fixed;
     bottom: 0px;
-    padding: 10;
+    padding: 10px;
 }
 footer h4{
     text-align: center;
