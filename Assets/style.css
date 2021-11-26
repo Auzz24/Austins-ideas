@@ -22,10 +22,11 @@ h2 {
 
 /*Header and nav section*/
 header {
-   
+    position: sticky;
     padding: 20px 35px;
     justify-content: space-between;
     border-bottom: none;
+    display: flex;
     flex-wrap: wrap;
 }
 header h1 {
@@ -33,13 +34,12 @@ header h1 {
     font-weight: bold;
     margin: 0px;
     font-size: 40px;
-    color: var(--tertiary-color);
+    color: var(--quaternary-color);
     display: inline;
 }
 
 header nav{
     margin: 7px 0;
-    float: right;
 }
 
 header a {
@@ -63,7 +63,7 @@ header nav ul a {
 
 .hero {
     color:var(--tertiary-color);
-    padding: 60px;
+    padding: 30px;
     background-color: var(--secondary-color);
     text-align: center;
 }
@@ -80,14 +80,12 @@ header nav ul a {
 .about-me {
     text-align: center;
     padding: 10px;
-}
-.about-me h3 {
-    padding: 10px;
+    border: 5px solid var(--tertiary-color);
 }
 
 .bio {
 justify-content: space-between;
-padding-bottom: 10px;
+padding: 10px;
 overflow: auto;
 }
 
@@ -96,9 +94,11 @@ overflow: auto;
 }
 
 .bio img {
-    width: 15%;
     float: left;
+    width: 200px;
+    height: 200px;
     padding-left: 30px;
+    padding-right: 30px;
     
 }
 .bio p {
@@ -117,15 +117,24 @@ overflow: auto;
 
 /*my ideas*/
 #my-ideas{
+    justify-content: space-between;
     text-align: center;
+    border-top: none;
+    border-bottom: 5px solid var(--tertiary-color);
+    border-left:5px solid var(--tertiary-color);
+    border-right: 5px solid var(--tertiary-color);
 }
 
-#my-ideas ul {
-    padding: 10px;
+.imgs {
+    display: inline;
+}
+
+#my-ideas img:hover {
+width: 400px;
 }
 
 #my-ideas img{
-    width: 50px;
+    width: 200px;
     height: auto;
 }
 /*end my ideas*/
@@ -134,17 +143,19 @@ overflow: auto;
 /*contact & footer*/
 
 footer {
-    color:var(--quaternary-color);
-    background-color: var(--secondary-color);
-    width: 100%;
-    position: fixed;
+    padding: 10px 10px 0px 10px;
     bottom: 0px;
-    padding: 10px 40px;
+    height: 90px;
+    width: 100%;
+    background-color: var(--secondary-color);
+   
 }
 footer h3{
     text-align: center;
+    text-decoration: underline;
 }
 footer ul{
+    color:var(--quaternary-color);
     list-style: none;
     display: flex;
     flex-wrap: wrap;
