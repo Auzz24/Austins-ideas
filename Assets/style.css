@@ -22,7 +22,6 @@ h2 {
 
 /*Header and nav section*/
 header {
-    position: sticky;
     padding: 20px 35px;
     justify-content: space-between;
     border-bottom: none;
@@ -55,7 +54,7 @@ header nav ul a {
     margin: 0 30px;
     font-weight: bold;
     font-size: 25px;
-    color: var(--quaternary-color);
+    color: var(--tertiary-color);
 }
 /*end header and nav*/
 
@@ -64,11 +63,15 @@ header nav ul a {
 .hero {
     color:var(--tertiary-color);
     padding: 30px;
-    background-color: var(--secondary-color);
+    background-color: var(--quaternary-color);
     text-align: center;
+    border-top:10px solid var(--secondary-color);
+    border-left:10px solid var(--secondary-color);
+    border-right:10px solid var(--secondary-color);
 }
 
 .hero p {
+    font-family: cursive;
     margin: 15px 50px;
 }
 
@@ -80,7 +83,7 @@ header nav ul a {
 .about-me {
     text-align: center;
     padding: 10px;
-    border: 5px solid var(--tertiary-color);
+    border: 10px solid var(--secondary-color);
 }
 
 .bio {
@@ -97,18 +100,19 @@ overflow: auto;
     float: left;
     width: 200px;
     height: 200px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
+    border: 5px solid var(--quaternary-color);
+    border-radius: 15px;
 }
+
 .bio p {
     display: inline;
     margin: 15px 50px;
 }
 
-.text-right {
-    text-align: right;
-  }
+.bio ul {
+    text-align: center;
+    list-style: inside;
+}
 
 
 /*end about me*/
@@ -120,9 +124,9 @@ overflow: auto;
     justify-content: space-between;
     text-align: center;
     border-top: none;
-    border-bottom: 5px solid var(--tertiary-color);
-    border-left:5px solid var(--tertiary-color);
-    border-right: 5px solid var(--tertiary-color);
+    border-bottom:10px solid var(--secondary-color);
+    border-left:10px solid var(--secondary-color);
+    border-right:10px solid var(--secondary-color);
 }
 
 .imgs {
@@ -143,18 +147,17 @@ width: 400px;
 /*contact & footer*/
 
 footer {
+    text-align: center;
+    position: sticky;
     padding: 10px 10px 0px 10px;
     bottom: 0px;
     height: 90px;
     width: 100%;
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
    
 }
-footer h3{
-    text-align: center;
-    text-decoration: underline;
-}
 footer ul{
+    font-weight: bold;
     color:var(--quaternary-color);
     list-style: none;
     display: flex;
