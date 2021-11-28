@@ -7,6 +7,7 @@ A website that discribes the work of legedary website desighner Austin Miller
 HTML CSS
 
 #### Website
+https://auzz24.github.io/Austins-ideas/
 
 
 #### Contribution
